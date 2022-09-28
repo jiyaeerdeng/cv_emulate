@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt, letterpaper]{awesome-cv}
 \usepackage{hyperref}
 \definecolor{mypink1}{rgb}{0,0.2,0.6}
 %\hypersetup{
@@ -29,6 +29,8 @@
 %}
 
 \usepackage{fontawesome}
+
+%\addbibresource{zotero.bib}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -63,13 +65,13 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Hongtao}{Hao}
+\name{Jiya}{Eerdeng}
 %\position{Research Assistant{\enskip\cdotp\enskip}Indiana University}
 %\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
-\email{hongtao@example.com}
-\homepage{www.hongtaoh.com}
-\github{hongtaoh}
+\email{eerdeng@usc.edu}
+%\homepage{www.hongtaoh.com}
+\github{jiyaeerdeng}
 %\linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
@@ -95,8 +97,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Hongtao Hao~~~·~~~Curriculum Vitae}
+  %{\today}
+  {}
+  {Jiya Eerdeng~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -105,14 +108,12 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
-\input{cv/appointment.tex}
+\input{cv/research_experience.tex}
 \input{cv/honors.tex}
 \input{cv/working.tex}
-\input{cv/teaching}
-\input{cv/projects.tex}
-\input{cv/writing.tex}
+\input{cv/publication.tex}
 \input{cv/skills.tex}
-\input{cv/conference}
+%\input{cv/conference}
 %\input{cv/committees.tex}
 
 
